@@ -1,0 +1,105 @@
+
+/* ***************BASE STYLE**************/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 100%;
+  margin-left: 1%;
+}
+
+h1 {
+  margin: 15px 0 40px 0;
+  text-align: center;
+}
+
+section {
+  border: 1px solid black;
+  width: 30.6666667%;
+  margin: 0 1% 15px 1%;
+  padding: 30px 10px 10px 10px;
+  position: relative;
+  background-color: gray;
+  float: left;
+}
+
+h3 {
+  border: 1px solid black;
+  width: 120px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.chicken {
+  background-color: tomato;
+}
+
+.beef {
+  background-color: burlywood;
+}
+
+.sushi {
+  background-color:hotpink
+}
+
+/* ***************Desktop View*************** */
+@media (min-width: 992px) {
+  /* Same style applicable as the above. */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div {
+    width: 100%;
+    margin: 0 1%;
+  }
+
+  .top {
+    border: 1px solid black;
+    width: 47%;
+    margin: 0 1% 15px 1%;
+    padding: 30px 10px 10px 10px;
+    position: relative;
+    background-color: gray;
+    float: left;
+  }
+  .middle {
+    border: 1px solid black;
+    width: 47%;
+    margin: 0 1% 15px 1%;
+    padding: 30px 10px 10px 10px;
+    position: relative;
+    background-color: gray;
+    float: left;
+  }
+  .bottom {
+    border: 1px solid black;
+    width: 96%;
+    margin: 0 1% 15px 1%;
+    padding: 30px 10px 10px 10px;
+    position: relative;
+    background-color: gray;
+  }
+}
+
+@media (max-width: 767px) {
+  div {
+    width: 100%;
+    margin: 0 1%;
+  }
+
+  section {
+    border: 1px solid black;
+    width: 96%;
+    margin: 0 1% 15px 1%;
+    padding: 30px 10px 10px 10px;
+    position: relative;
+    background-color: gray;
+    float: left;
+  }
+}
