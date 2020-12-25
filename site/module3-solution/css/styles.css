@@ -1,0 +1,42 @@
+
+body {
+  font-size: 16px;
+  color: whitesmoke;
+  background-color:blanchedalmond
+}
+
+#header-nav {
+  background-color: yellowgreen;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand h2 {
+  margin-top: 10px;
+  padding: 0;
+}
+
+#nav-list a {
+  color: rgb(165, 22, 101);
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background-color: ghostwhite
+}
+
+#menu-category  {
+  background-color: black;
+  margin-top: -20px;
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+
+#par {
+  background-color:rgb(156, 142, 15);
+}
